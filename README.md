@@ -11,10 +11,10 @@ This is the C++ code from the R package David Mosen-Ansorena published, adapted 
 git clone https://github.com/davidvi/CopyNumberAnalysis.git
 cd CopyNumberAnalysis
 g++ copy_number_analysis.cpp -lm -o cna
-./cna -w 50 -i input.bam -o output.txt
+./cna -s 50 -i input.bam -o output.txt
 ```
 
 options:
--w window size (*1000)
+-w slide window size (*1000)
 -i input bam file
 -o output txt file for use in seqCNA R package
