@@ -16,6 +16,9 @@
 #include <math.h>
 #include <iostream>
 #include <fstream>
+#include <iterator>
+#include <cstdlib>
+#include <algorithm>
 
 using namespace std;
 
