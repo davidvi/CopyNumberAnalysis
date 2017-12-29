@@ -1,5 +1,10 @@
-//David van IJzendoorn, 2017
-//clang++ -std=c++0x fixFastq.cpp -o fixFastq && ./fixFastq
+/*
+ * R package developed by:
+ * Developer : David Mosen-Ansorena
+ * All code (c)2012 David Mosen-Ansorena all rights reserved
+ * all Credit goes to David Mosen-Ansorena, this is an adaptation as I couldn't get the R package to work.
+ */
+
 //libraries
 #include <sstream>
 #include <string>
