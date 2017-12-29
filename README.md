@@ -15,6 +15,6 @@ g++ copy_number_analysis.cpp -lm -o cna
 ```
 
 options:
--w slide window size (*1000)
+-s slide window size (*1000)
 -i input bam file
 -o output txt file for use in seqCNA R package
